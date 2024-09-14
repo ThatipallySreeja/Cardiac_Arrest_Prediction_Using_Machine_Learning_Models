@@ -232,14 +232,10 @@ plt.show()
 *   LINEAR REGRESSION ACCURACY: 100.0
 *   ANN Accuracy: 99.7954479325297
 
-
-
 """
 
 #PREPROCESSING THE DATA
 
-
-#PRE PROCESSING
 data1=pd.read_excel("/content/medical_dataset.xlsx")
 df1 = pd.DataFrame(data1)
 
@@ -515,10 +511,8 @@ plt.show()
 * LINEAR REGRESSION ACCURACY: 100.0
 * ANN Accuracy: 99.999664135684
 
-
-
-
 """
+
 
 # CHOLESTROL  COMPARISION
 
@@ -615,7 +609,7 @@ plt.subplots_adjust(bottom=0.15)
 
 plt.show()
 
-#**ACCURACY ANALYSIS**
+"""#**ACCURACY ANALYSIS**"""
 
 
 
