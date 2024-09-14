@@ -14,17 +14,15 @@ Cardiac Prediction using Machine Learning Models This project aims to predict ca
 9. Visualization.
 10. Conclusion
 
----
 
 ### 1. Project Overview
 This project focuses on predicting the likelihood of cardiac arrest in individuals by analyzing health-related data using various machine learning models. By leveraging models such as **Logistic Regression**, **Decision Trees**, **Random Forest**, **Support Vector Machines (SVM)**, and **Artificial Neural Networks (ANN)**, the goal is to provide early warning signs of cardiac arrest for timely intervention.
 
----
 
 ### 2. Problem Statement
 Cardiac arrest is a sudden cessation of heart function, often leading to death if untreated. Predicting the likelihood of cardiac arrest can enable early medical intervention, potentially saving lives. This project uses patient data to predict the onset of cardiac arrest and identify high-risk individuals.
 
----
+
 
 ### 3. Dataset
 The dataset used in this project contains various medical and health-related parameters such as BMI, cholesterol, obesity, blood pressure (BP), physical activity, and age. 
@@ -35,7 +33,6 @@ The dataset is preprocessed to ensure model readiness:
 - **Encoding Categorical Variables**: Converting non-numeric data into numerical form using techniques like one-hot encoding.
 - **Feature Selection**: Identifying features that have a strong correlation with cardiac arrest risk.
 
----
 
 ### 4. Prerequisites
 Ensure the following tools and libraries are installed:
@@ -49,7 +46,6 @@ The required Python libraries include:
 - `matplotlib`
 - `seaborn`
 
----
 
 ### 5. Installation
 Follow these steps to set up and run the project:
@@ -67,7 +63,6 @@ Follow these steps to set up and run the project:
    pip install -r requirements.txt
    ```
 
----
 
 ### 6. Usage
 To run the project:
@@ -82,7 +77,6 @@ To run the project:
    ```
    - Or upload the `.ipynb` file and dataset into Google Colab.
 
----
 
 ### 7. Models and Evaluation
 The following machine learning models are implemented to predict the likelihood of cardiac arrest:
@@ -94,7 +88,6 @@ The following machine learning models are implemented to predict the likelihood 
 
 Each model is evaluated using appropriate metrics like **accuracy**, **precision**, **recall**, **F1-score**, and **ROC-AUC**.
 
----
 
 ### 8. Results
 The results for each model are compared based on the following metrics:
@@ -117,13 +110,11 @@ The results for each model are compared based on the following metrics:
    - Linear Regression: 100.0%
    - ANN: 99.81%
 
----
 
 ### 9. Visualization
 The project includes visualizations to compare the model performance for predicting the risk of cardiac arrest.
 These visualizations help in understanding which model performs the best for each target variable.
 
----
 
 ### 10. Conclusion
 This project demonstrates how machine learning can be applied to predict the risk of cardiac arrest, potentially saving lives by enabling timely medical interventions. Various models have been implemented and compared to determine which performs best in predicting cardiac arrest based on patient health data.
