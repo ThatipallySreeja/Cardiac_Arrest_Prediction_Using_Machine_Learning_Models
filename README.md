@@ -1,8 +1,7 @@
-# Cardiac_Arrest_Prediction_Using_Machine_Learning_Models
 
 Cardiac Prediction using Machine Learning Models This project aims to predict cardiac health metrics such as BMI, obesity, and cholesterol levels using various machine learning models. The project compares the performance of different models, including Support Vector Machines (SVM), Decision Trees, Linear Regression, and Artificial Neural Networks (ANN).
 
-## Table of Contents
+### Table of Contents
 1. Project Overview
 2. Problem Statement
 3. Dataset
